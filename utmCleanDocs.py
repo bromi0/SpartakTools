@@ -2,6 +2,7 @@ import os
 import subprocess
 import sys
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 
 if len(sys.argv) != 2:
