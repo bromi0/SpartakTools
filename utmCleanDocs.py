@@ -1,3 +1,13 @@
+"""
+This script downloads XML data about documents stored in the base from a UTM Module (EGAIS)
+Than it cleans database.
+
+Before Usage, receive all documents and be sure you don't need any receipts or other stuff.
+
+Usage: python <filename>.py <computername>
+
+<computername> is the name of the computer where the XML data is hosted.
+"""
 import os
 import subprocess
 import sys
